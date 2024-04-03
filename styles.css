@@ -1,0 +1,49 @@
+#project1{
+    background-image: url("yarn.jpeg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    padding-top: 2%;
+}
+#project1 .myContainer{
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#project1 #save-el {
+    font-size: large;
+    font-weight: bold;
+}
+
+#project2{
+    background-image: url("table.png");
+    background-size: cover;
+
+    height: 100vh;
+    padding-top: 2%;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+}
+
+#project2 h1{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+#project2 #message-el{
+    font-style: italic;
+}
+
+#start-btn, #new-card-btn{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-weight: bold;
+}
