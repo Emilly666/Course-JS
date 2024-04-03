@@ -12,8 +12,8 @@ let message = ""
 
 function startGame() {
     cards = [
-        Math.floor(Math.random() * 10) + 2,
-        Math.floor(Math.random() * 10) + 2
+        getRandomCard(),
+        getRandomCard()
     ]
     sum = cards[0] + cards[1]
     renderGame()
@@ -43,8 +43,12 @@ function renderGame() {
 }
 
 function newCard() {
-    let newCard = Math.floor(Math.random() * 10) + 2
+    let newCard = getRandomCard()
     cards.push(newCard)
     sum += newCard
     renderGame()
+}
+
+function getRandomCard() {
+    return Math.floor(Math.random() * 10) + 2
 }
