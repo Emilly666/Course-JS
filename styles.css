@@ -1,9 +1,12 @@
 #project1 #project2 #project3 #project4{
     height: 50hv;
 }
+body{
+    background-color: #EEF0F4;
+}
 
 #project1{
-    background-image: url("yarn.jpeg");
+    background-image: url("assets/yarn.jpeg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -22,7 +25,7 @@
 }
 
 #project2{
-    background-image: url("table.png");
+    background-image: url("assets/table.png");
     background-size: cover;
     padding-top: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +54,7 @@
 #project3{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    min-width: 200px;
 }
 
 #project3 li{
@@ -62,7 +65,81 @@
     padding-left: 0px;
 }
 
-#project3 button{
+#project3 button, #project4 button{
     margin-top:5px;
     margin-bottom: 5px;
+}
+
+#project4{
+
+    font-family: 'Rubik', sans-serif;
+}
+
+#projecr4Container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    color: #432000;
+}
+
+#project4 img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+#project4 input{
+    color: #432000;
+    background-color: #DCE1EB;
+    margin: 5px, 0px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#project4 input::placeholder{
+    font-size: 20px;
+}
+
+#project4 #add-button{
+    color: #FDFDFD;
+    background-color: #AC485A;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#project4 #add-button:hover{
+    background-color: #432000;
+}
+
+#project4 ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#project4 ul li {
+    width: auto;
+    flex-grow: 1;
+    background-color: #FFFDF8;
+    color: #432000;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#project4 ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
 }

@@ -12,7 +12,7 @@ let hasBlackjack = false, isAlive = false
 let message = ""
 
 let player = {
-    name: "Ariel",
+    name: "Fiona",
     chips: 100,
     start: function (){
         player.chips -= 10
