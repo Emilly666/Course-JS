@@ -1,9 +1,12 @@
+#project1 #project2 #project3 #project4{
+    height: 50hv;
+}
+
 #project1{
     background-image: url("yarn.jpeg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    height: 100vh;
     padding-top: 2%;
 }
 #project1 .myContainer{
@@ -21,10 +24,7 @@
 #project2{
     background-image: url("table.png");
     background-size: cover;
-
-    height: 100vh;
     padding-top: 2%;
-
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 200%;
@@ -46,4 +46,23 @@
     width: 150px;
     background: goldenrod;
     font-weight: bold;
+}
+
+#project3{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+#project3 li{
+    list-style: none;
+}
+
+#project3 ul{
+    padding-left: 0px;
+}
+
+#project3 button{
+    margin-top:5px;
+    margin-bottom: 5px;
 }
